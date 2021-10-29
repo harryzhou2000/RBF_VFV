@@ -1,0 +1,4 @@
+syms c kappa
+KR = (2-3*c+c^2+(4*c-2*c^2)*cos(-kappa)+(c^2-c)*cos(-2*kappa))/2;
+KI = (2-3*c+c^2+(4*c-2*c^2)*sin(-kappa)+(c^2-c)*sin(-2*kappa))/2;
+KS = KI^2 + KR^2
